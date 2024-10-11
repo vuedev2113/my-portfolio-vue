@@ -3,7 +3,7 @@
     <a
       v-for="item in items"
       :key="item.title"
-      class="d-inline-block mx-2 social-link"
+      class="inline-block mx-2 social-link"
       :href="item.href"
       rel="noopener noreferrer"
       target="_blank"
@@ -12,8 +12,8 @@
       <v-icon :icon="item.icon" :size="item.icon === '$vuetify' ? 36 : 24" />
     </a>
 
-    <div class="position-absolute text-disabled" style="right: 24px;">
-      &copy; 2020-{{ (new Date()).getFullYear() }} <span class="d-none d-sm-inline-block">Created By Oleh</span>
+    <div class="absolute text-disabled" style="right: 24px;">
+      &copy; 2020-{{ (new Date()).getFullYear() }} <span class="hidden sm:inline-block">Created By Oleh</span>
     </div>
   </v-footer>
 </template>

@@ -1,3 +1,3 @@
 <template>
-  Education
+  <div id="education">Education</div>
 </template>

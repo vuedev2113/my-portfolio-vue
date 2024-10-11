@@ -1,3 +1,3 @@
 <template>
-  Skills
+  <div id="skills">Skills</div>
 </template>

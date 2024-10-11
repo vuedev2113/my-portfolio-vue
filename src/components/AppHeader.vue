@@ -1,7 +1,7 @@
 <template>
   <v-app-bar border="b" class="py-4" density="compact">
-    <v-container class="d-flex justify-space-between w-xl-75">
-      <RouterLink class="d-flex align-center" to="/">
+    <v-container class="flex justify-between xl:w-[75%]">
+      <RouterLink class="flex items-center" to="/">
         <v-btn class="text-none me-2" height="48" icon slim>
           <v-avatar color="surface-light" image="/favicon.ico" size="48" />
         </v-btn>
@@ -13,7 +13,7 @@
           <v-list density="compact" item-props :items="navs" nav />
         </v-menu>
       </v-btn>
-      <nav v-else class="d-flex justify-center align-center ga-4">
+      <nav v-else class="flex justify-center items-center gap-4">
         <RouterLink
           v-for="nav, i in navs"
           :key="i"
