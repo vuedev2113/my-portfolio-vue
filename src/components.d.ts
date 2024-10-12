@@ -11,6 +11,7 @@ declare module 'vue' {
     AppFooter: typeof import('./components/AppFooter.vue')['default']
     AppHeader: typeof import('./components/AppHeader.vue')['default']
     Contact: typeof import('./components/HomePage/Contact.vue')['default']
+    ContactForm: typeof import('./components/HomePage/ContactForm.vue')['default']
     Education: typeof import('./components/HomePage/Education.vue')['default']
     Experience: typeof import('./components/HomePage/Experience.vue')['default']
     Home: typeof import('./components/Home.vue')['default']

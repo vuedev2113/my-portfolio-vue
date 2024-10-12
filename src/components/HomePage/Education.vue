@@ -32,7 +32,7 @@
           <div
             v-for="education in educations"
             :key="education.id"
-            class="h-fit cursor-pointer border border-[#2a2e5a] transition-all duration-300 relative bg-[#101123] text-gray-200 rounded-xl hover:border-transparent w-full hover:border-[#8072f8]"
+            class="h-fit cursor-pointer border border-[#2a2e5a] transition-all duration-300 relative bg-[#101123] text-gray-200 rounded-xl w-full hover:border-[#8072f8]"
           >
             <div class="p-3 relative">
               <v-img
