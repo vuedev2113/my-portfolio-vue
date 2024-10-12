@@ -15,8 +15,8 @@ import type { App } from 'vue'
 
 export function registerPlugins (app: App) {
   app
-    .use(Vue3Lottie)
     .use(vuetify)
     .use(router)
     .use(pinia)
+    .use(Vue3Lottie)
 }
