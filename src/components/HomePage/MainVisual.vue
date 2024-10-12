@@ -1,5 +1,5 @@
 <template>
-  <section class="relative flex flex-col align-center justify-space-between py-4 lg:py-12">
+  <section class="relative flex flex-col align-center justify-space-between py-16 lg:py-12">
     <v-img
       alt="Hero"
       class="absolute top-0 w-full h-auto"

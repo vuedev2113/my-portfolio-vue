@@ -43,7 +43,7 @@
             role="button"
           >
             <span>Send Message</span>
-            <v-icon class="mt-1" icon="mdi-send" size="18" />
+            <v-icon icon="mdi-send" size="16" />
           </button>
         </div>
       </div>

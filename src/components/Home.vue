@@ -1,5 +1,5 @@
 <template>
-  <v-container class="fill-height lg:w-[75%]">
+  <v-container class="fill-height py-16 lg:w-[75%]">
     <MainVisual />
     <AboutView />
     <Experience />

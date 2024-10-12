@@ -1,5 +1,10 @@
 <template>
-  <v-app-bar border="b" class="py-4" density="compact">
+  <v-app-bar
+    border="b"
+    class="py-4 top-0"
+    density="compact"
+    sticky
+  >
     <v-container class="flex justify-between xl:w-[75%]">
       <RouterLink class="flex items-center" to="/">
         <v-btn class="text-none me-2" height="48" icon slim>

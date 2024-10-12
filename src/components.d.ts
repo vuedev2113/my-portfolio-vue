@@ -11,15 +11,16 @@ declare module 'vue' {
     AppFooter: typeof import('./components/AppFooter.vue')['default']
     AppHeader: typeof import('./components/AppHeader.vue')['default']
     Contact: typeof import('./components/HomePage/Contact.vue')['default']
-    ContactForm: typeof import('./components/HomePage/ContactForm.vue')['default']
+    ContactForm: typeof import('./components/ContactForm.vue')['default']
     Education: typeof import('./components/HomePage/Education.vue')['default']
     Experience: typeof import('./components/HomePage/Experience.vue')['default']
     Home: typeof import('./components/Home.vue')['default']
     MainVisual: typeof import('./components/HomePage/MainVisual.vue')['default']
-    ProjectCard: typeof import('./components/HomePage/ProjectCard.vue')['default']
+    ProjectCard: typeof import('./components/ProjectCard.vue')['default']
     Projects: typeof import('./components/HomePage/Projects.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    ScrollTopBtn: typeof import('./components/ScrollTopBtn.vue')['default']
     Skills: typeof import('./components/HomePage/Skills.vue')['default']
   }
 }
