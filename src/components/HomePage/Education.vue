@@ -82,11 +82,5 @@
       duration: '2019 - 2020',
       institution: 'Kherson Programmer Training Center',
     },
-    // {
-    //   id: 3,
-    //   title: 'Secondary School Certificate',
-    //   duration: '2008 - 2018',
-    //   institution: 'Baitus Saif Islamia Madrasah',
-    // }
   ]
 </script>
