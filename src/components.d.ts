@@ -14,7 +14,6 @@ declare module 'vue' {
     Education: typeof import('./components/HomePage/Education.vue')['default']
     Experience: typeof import('./components/HomePage/Experience.vue')['default']
     Home: typeof import('./components/Home.vue')['default']
-    LottieAnimation: typeof import('vue3-lottie')['Vue3Lottie']
     MainVisual: typeof import('./components/HomePage/MainVisual.vue')['default']
     ProjectCard: typeof import('./components/HomePage/ProjectCard.vue')['default']
     Projects: typeof import('./components/HomePage/Projects.vue')['default']

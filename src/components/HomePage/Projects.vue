@@ -12,7 +12,7 @@
 
     <div class="pt-24">
       <div class="flex items-center flex-col gap-6">
-        <div v-for="project, index in projectsData" :key="index" class="sticky-card w-full mx-auto max-w-2xl sticky top-20">
+        <div v-for="project in projectsData" :key="project.id" class="sticky-card w-full mx-auto max-w-2xl sticky top-20">
           <div class="box-border flex items-center justify-center rounded shadow-[0_0_30px_0_rgba(0,0,0,0.3)] transition-all duration-[0.5s]">
             <ProjectCard :project="project" />
           </div>
