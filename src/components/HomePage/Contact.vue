@@ -10,15 +10,15 @@
       <ContactForm />
       <div class="lg:w-3/4 ">
         <div class="flex flex-col gap-5 lg:gap-9">
-          <p v-for="info, i in contactInfo" :key="i" class="text-sm md:text-xl flex items-center gap-3">
+          <p v-for="info, i in contactInfo" :key="i" class="flex items-center gap-3">
             <a
-              class="bg-[#8b98a5] p-2 h-min rounded-full aspect-square hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+              class="bg-[#8b98a5] p-2 flex rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
               :href="info.name"
               target="_blank"
             >
               <v-icon :icon="info.icon" size="24" />
             </a>
-            <span>{{ info.name }}</span>
+            <span class="text-sm md:text-xl">{{ info.name }}</span>
           </p>
         </div>
         <div class="mt-8 lg:mt-16 flex items-center gap-5 lg:gap-10">

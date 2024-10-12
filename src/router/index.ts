@@ -12,6 +12,27 @@ import { routes } from 'vue-router/auto-routes'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: setupLayouts(routes),
+  scrollBehavior (to, from, savedPosition) {
+    if (to.hash) {
+      const element = document.getElementById(to.hash.substring(1))
+      if (element) {
+        const offset = 80 // Example of a fixed offset
+        const elementPosition = element.getBoundingClientRect().top + window.pageYOffset
+        const offsetPosition = elementPosition - offset
+
+        return new Promise(resolve => {
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth',
+          })
+          resolve()
+        })
+      } else {
+        return { top: 0 } // Default position
+      }
+    }
+    return savedPosition || { top: 0 }
+  },
 })
 
 // Workaround for https://github.com/vitejs/vite/issues/11804
