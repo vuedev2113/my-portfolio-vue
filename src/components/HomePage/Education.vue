@@ -1,3 +1,7 @@
+<script setup lang="ts">
+  import { educations } from '@/stores/store'
+</script>
+
 <template>
   <div id="education" class="relative w-full z-50 border-t my-12 lg:my-24 border-[#25213b]">
     <v-img
@@ -67,20 +71,3 @@
     </div>
   </div>
 </template>
-
-<script setup lang="ts">
-  const educations = [
-    {
-      id: 1,
-      title: 'Bachelor of Computer Science',
-      duration: '2017 - 2020',
-      institution: 'Kherson National Technical University',
-    },
-    {
-      id: 2,
-      title: 'Higher Secondary Certificate',
-      duration: '2019 - 2020',
-      institution: 'Kherson Programmer Training Center',
-    },
-  ]
-</script>
