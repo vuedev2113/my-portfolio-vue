@@ -46,12 +46,12 @@
     },
     {
       title: 'phone',
-      name: '380',
+      name: '380934758522',
       icon: 'mdi-cellphone',
     },
     {
       title: 'address',
-      name: 'Kherson state, Ukraine',
+      name: 'Kherson, Ukraine',
       icon: 'mdi-map-marker',
     },
   ]
@@ -63,17 +63,17 @@
     },
     {
       title: 'linkedin',
-      link: 'https://linkedin.com/in/oleh-zamryha',
+      link: 'https://linkedin.com/in/oleh-zamryha-b',
       icon: 'mdi-linkedin',
     },
     {
       title: 'twitter',
-      link: 'https://x.com',
+      link: 'https://x.com/',
       icon: 'mdi-twitter',
     },
     {
       title: 'facebook',
-      link: 'https://facebook.com/oleh-zamriha',
+      link: 'https://facebook.com/',
       icon: 'mdi-facebook',
     },
   ]

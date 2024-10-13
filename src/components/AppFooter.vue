@@ -13,7 +13,7 @@
     </a>
 
     <div class="absolute text-disabled" style="right: 24px;">
-      &copy; 2020-{{ (new Date()).getFullYear() }} <span class="hidden sm:inline-block">Created By Oleh</span>
+      &copy; 2020-{{ (new Date()).getFullYear() }} <span class="hidden sm:inline-block">Created By <span class="text-[#16f2b3]">Oleh</span></span>
     </div>
   </v-footer>
 </template>

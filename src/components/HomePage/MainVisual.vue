@@ -26,21 +26,21 @@
           </a>
           <a
             class="transition-all text-pink-500 hover:scale-125 duration-300"
-            href="{personalData.lin"
+            href="https://linkedin.com/in/oleh-zamryha-b"
             target="_blank"
           >
             <v-icon icon="mdi-linkedin" size="30" />
           </a>
           <a
             class="transition-all text-pink-500 hover:scale-125 duration-300"
-            href="{personalData.facebo"
+            href="https://facebook.com"
             target="_blank"
           >
             <v-icon icon="mdi-facebook" size="30" />
           </a>
           <a
             class="transition-all text-pink-500 hover:scale-125 duration-300"
-            href="{personalData.twitter}"
+            href="https://twitter.com"
             target="_blank"
           >
             <v-icon icon="mdi-twitter" size="30" />
@@ -96,9 +96,21 @@
             <div class="ml-4 lg:ml-8 mr-2">
               <span class=" text-white">skills:</span>
               <span class="text-gray-400">{{ `['` }}</span>
+              <span class="text-amber-300">Vue.js</span>
+              <span class="text-gray-400">{{ "', '" }}</span>
+              <span class="text-amber-300">Nuxt.js</span>
+              <span class="text-gray-400">{{ "', '" }}</span>
+              <span class="text-amber-300">Vuetify.js</span>
+              <span class="text-gray-400">{{ "', '" }}</span>
+              <span class="text-amber-300">Vuex</span>
+              <span class="text-gray-400">{{ "', '" }}</span>
               <span class="text-amber-300">React</span>
               <span class="text-gray-400">{{ "', '" }}</span>
-              <span class="text-amber-300">NextJS</span>
+              <span class="text-amber-300">Next.js</span>
+              <span class="text-gray-400">{{ "', '" }}</span>
+              <span class="text-amber-300">PHP</span>
+              <span class="text-gray-400">{{ "', '" }}</span>
+              <span class="text-amber-300">Laravel</span>
               <span class="text-gray-400">{{ "', '" }}</span>
               <span class="text-amber-300">Redux</span>
               <span class="text-gray-400">{{ "', '" }}</span>
@@ -106,7 +118,9 @@
               <span class="text-gray-400">{{ "', '" }}</span>
               <span class="text-amber-300">NestJS</span>
               <span class="text-gray-400">{{ "', '" }}</span>
-              <span class="text-amber-300">MySql</span>
+              <span class="text-amber-300">MySQL</span>
+              <span class="text-gray-400">{{ "', '" }}</span>
+              <span class="text-amber-300">PostgreSQL</span>
               <span class="text-gray-400">{{ "', '" }}</span>
               <span class="text-amber-300">MongoDB</span>
               <span class="text-gray-400">{{ "', '" }}</span>
@@ -153,7 +167,7 @@
               <span class="ml-12 lg:ml-24 text-cyan-400">this.</span>
               <span class="mr-2 text-white">skills.length</span>
               <span class="mr-2 text-amber-300">&gt;=</span>
-              <span class="text-orange-400">5</span>
+              <span class="text-orange-400">4</span>
             </div>
             <div><span class="ml-8 lg:ml-16 mr-2 text-gray-400">{{ `);` }}</span></div>
             <div><span class="ml-4 lg:ml-8 text-gray-400">{{ `};` }}</span></div>
