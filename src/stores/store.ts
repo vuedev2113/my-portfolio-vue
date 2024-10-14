@@ -78,7 +78,7 @@ export const skillsData = [
   },
   {
     title: 'Express.js',
-    src: '/svg/skills/expressJS.svg',
+    src: '/svg/skills/express.svg',
   },
   {
     title: 'PHP',
