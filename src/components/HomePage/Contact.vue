@@ -38,43 +38,5 @@
 </template>
 
 <script setup lang="ts">
-  const contactInfo = [
-    {
-      title: 'email',
-      name: 'Oleh25333@gmail.com',
-      icon: 'mdi-at',
-    },
-    {
-      title: 'phone',
-      name: '380934758522',
-      icon: 'mdi-cellphone',
-    },
-    {
-      title: 'address',
-      name: 'Kherson, Ukraine',
-      icon: 'mdi-map-marker',
-    },
-  ]
-  const socialInfo = [
-    {
-      title: 'github',
-      link: 'https://github.com/vuedev2113',
-      icon: 'mdi-github',
-    },
-    {
-      title: 'linkedin',
-      link: 'https://linkedin.com/in/oleh-zamryha-b',
-      icon: 'mdi-linkedin',
-    },
-    {
-      title: 'twitter',
-      link: 'https://x.com/',
-      icon: 'mdi-twitter',
-    },
-    {
-      title: 'facebook',
-      link: 'https://facebook.com/',
-      icon: 'mdi-facebook',
-    },
-  ]
+  import { contactInfo, socialInfo } from '@/stores/store'
 </script>

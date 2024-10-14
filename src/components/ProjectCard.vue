@@ -55,7 +55,7 @@
 </template>
 
 <script setup lang="ts">
-  export interface Project {
+  interface Project {
     id: number;
     name: string;
     description: string;
