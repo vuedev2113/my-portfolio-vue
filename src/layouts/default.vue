@@ -1,8 +1,8 @@
 <template>
-  <AppHeader />
+  <app-header />
   <router-view />
-  <AppFooter />
-  <ScrollTopBtn />
+  <app-footer />
+  <scroll-top-btn />
 </template>
 
 <script lang="ts" setup>
