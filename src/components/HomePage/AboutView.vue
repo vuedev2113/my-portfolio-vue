@@ -18,8 +18,10 @@
       <div class="flex order-1 lg:order-2 justify-center items-center">
         <v-img
           alt="Oleh Zamryha"
-          class="max-w-80 h-auto rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
+          class="rounded-lg max-w-60 inline transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
+          height="auto"
           src="/profile.png"
+          width="240"
         />
       </div>
     </div>
