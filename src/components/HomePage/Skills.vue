@@ -19,16 +19,13 @@
     </div>
 
     <div class="w-full my-12">
-      <vue-marquee-slider
-        id="marquee-slider-loop"
-        :space="20"
-        :speed="50000"
-        :width="144"
+      <div
+        class="flex gap-5 flex-wrap justify-center"
       >
         <div
           v-for="skill, id in skillsData"
           :key="id"
-          class="w-36 min-w-fit h-fit flex flex-col items-center justify-center transition-all duration-500 m-3 sm:m-5 rounded-lg group relative hover:scale-[1.15] cursor-pointer"
+          class="w-36 min-w-fit h-fit flex flex-col items-center justify-center transition-all duration-500 rounded-lg group relative hover:scale-[1.15] cursor-pointer"
         >
           <div class="h-full w-full rounded-lg border border-[#1f223c] bg-[#11152c] shadow-none shadow-gray-50 group-hover:border-violet-500 transition-all duration-500">
             <div class="flex -translate-y-[1px] justify-center">
@@ -52,13 +49,11 @@
             </div>
           </div>
         </div>
-      </vue-marquee-slider>
+      </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-  import { VueMarqueeSlider } from 'vue3-marquee-slider'
-  import '../../../node_modules/vue3-marquee-slider/dist/style.css'
   import { skillsData } from '@/stores/store'
 </script>
